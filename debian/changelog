@@ -1,8 +1,8 @@
-dump1090-fa (8.2-1) UNRELEASED; urgency=low
+dump1090-fa (8.2-1) jammy; urgency=low
 
   * initial build for the OpenWebRX repository
 
- -- Jakob Ketterl <jakob.ketterl@gmx.de>  Sat, 26 Aug 2023 16:16:00 +0000
+ -- Jakob Ketterl <jakob.ketterl@gmx.de>  Mon, 28 Aug 2023 18:07:00 +0000
 
 dump1090-fa (8.2) stable; urgency=medium
 
