@@ -22,7 +22,7 @@ Description: FlightAware ADS-B Ground Station System for SDRs - decoder only
 
 Package: dump1090-fa
 Architecture: any
-Depends: dump1090-minimal (=${binary:Version}), ${shlibs:Depends}, ${misc:Depends}, adduser, lighttpd
+Depends: dump1090-fa-minimal (=${binary:Version}), ${shlibs:Depends}, ${misc:Depends}, adduser, lighttpd
 Description: FlightAware ADS-B Ground Station System for SDRs
  Networked Aviation Mode S / ADS-B decoder/translator with support
  for RTL-SDR, BladeRF, HackRF, and LimeSDR software defined radio USB
