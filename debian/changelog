@@ -1,3 +1,9 @@
+dump1090-fa (8.2-2) UNRELEASED; urgency=low
+
+  * restore background tasks to avoid overflow of the internal ICAO table
+
+ -- Jakob Ketterl <jakob.ketterl@gmx.de>  Sat, 30 Sep 2023 16:55:00 +0000
+
 dump1090-fa (8.2-1) bullseye jammy; urgency=low
 
   * initial build for the OpenWebRX repository
