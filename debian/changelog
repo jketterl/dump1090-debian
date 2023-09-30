@@ -1,8 +1,8 @@
-dump1090-fa (8.2-1) bullseye; urgency=low
+dump1090-fa (8.2-1) bullseye jammy; urgency=low
 
   * initial build for the OpenWebRX repository
 
- -- Jakob Ketterl <jakob.ketterl@gmx.de>  Mon, 28 Aug 2023 18:05:00 +0000
+ -- Jakob Ketterl <jakob.ketterl@gmx.de>  Mon, 28 Aug 2023 18:07:00 +0000
 
 dump1090-fa (8.2) stable; urgency=medium
 
