@@ -1,0 +1,19 @@
+#restore background tasks when running from file
+Index: dump1090-debian/dump1090.c
+===================================================================
+--- dump1090-debian.orig/dump1090.c
++++ dump1090-debian/dump1090.c
+@@ -466,11 +466,8 @@ static void backgroundTasks(void) {
+ 
+     uint64_t now = mstime();
+ 
+-    if (Modes.sdr_type != SDR_IFILE) {
+-        // don't run these if processing data from a file
+-        icaoFilterExpire();
+-        trackPeriodicUpdate();
+-    }
++    icaoFilterExpire();
++    trackPeriodicUpdate();
+ 
+     if (Modes.net) {
+         modesNetPeriodicWork();
